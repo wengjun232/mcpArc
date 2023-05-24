@@ -11,6 +11,7 @@
 \usepackage{hyperref}
 \usepackage{nameref}
 \usepackage{siunitx}
+\usepackage{mhchem}
 % \usepackage[backend=bibtex]{biblatex}
 \usepackage[margin=2cm]{geometry}
 % \addbibresource{matching-pursuit.bib}
@@ -111,6 +112,7 @@ These two modes are mixed together in proportion to form the single photoelectro
          & Q_{surface\  mode} \sim \mathcal{N} (\mu_2, \sigma_2)
     \end{aligned}
 \end{equation}
+$p$ is proportional to the opening ratio of MCP, which can be understood as the probability that photoelectrons directly enter the MCP channel to multiply.
 Use double Gaussian distribution to fit the charge response:
 \begin{figure}[ht]
     \centering
@@ -119,22 +121,41 @@ Use double Gaussian distribution to fit the charge response:
 \end{figure}
 
 From~\ref{fig:doubleGauss}, there's still a probability when the charge is zero, which doesn't make physical sense.
-
-why gamma?
-
-use double gamma distribution to fit:
+In order to solve the problem, we introduce gamma distribution instead of Gaussian distribution. 
+The gamma distribution can be used to fit data with a Gaussian distribution, especially in certain situations, 
+such as when the data is skewed or non-negative. It is a good choise to discribe the charge spectrum of MCP-PMTs.    
+\begin{equation}
+    \label{eq:gamma}
+    \begin{aligned}
+        &f(x ; \alpha, \beta)=\frac{x^{\alpha-1} e^{-\beta x} \beta^\alpha}{\Gamma(\alpha)} \quad \text { for } x>0 \quad \alpha, \beta>0\\
+        &\mu=\frac{\alpha}{\beta}\\
+        &\sigma^2=\frac{\alpha}{\beta^2}
+    \end{aligned}    
+\end{equation}
+$\alpha$ is the scale factor, $\beta$ is the rate factor and $\Gamma(\alpha)$ is the gamma function.
+By adjusting the scale factor $\alpha$ and rate factor $\beta$, the mean and variance of the gamma distribution can be similar to the gauss distribution.
+Using double gamma distribution as Eq~\ref{eq:doublegamma} to fit the charge spectrum of MCP-PMT as Fig~\ref{fig:doubleGamma}:
+\begin{equation}
+    \label{eq:doublegamma}
+    \begin{aligned}
+         & Q_{MCP-PMT} = p\times Q_{channel\  mode} + (1-p)\times Q_{surface\  mode} \\
+         & Q_{channel\  mode} \sim \varGamma  (\alpha_1, \beta_1)                      \\
+         & Q_{surface\  mode} \sim \varGamma  (\alpha_2, \beta_2)
+    \end{aligned}
+\end{equation}
 \begin{figure}[ht]
     \centering
     \includegraphics[height=5cm]{pic/doubleGamma.pdf}
-    \caption{The proportion of \textit{channel mode} is much less than \textit{surface mode}}\label{fig:doubleGamma}
+    \caption{The proportion of \textit{channel mode} is bigger than \textit{surface mode}}\label{fig:doubleGamma}
 \end{figure}
-Using gamma distribution to fit, the probability when the charge is zero is zero.
+In double distribution fitting, the proportion $p$ is leass than 50\%, which is not consistent with the opening ratio of 0.65.
+Also the chi-square value is not small enough to indicate the fitting is good enough.
 
 \subsection{dark noise from MCP}\label{subsec:dnr}
 The large chi-square value indicates that the fitting does not agree well with the SPE measured by experiment. We
 found a small peak in $[30,50]$\si[]{ADCns} hypothesized due to dark noise. In MCP-PMT, there are three possible types of noise:
 \begin{enumerate}
-    \item {Dark noise(DR) mainly caused by the thermionic emission from the
+    \item {Dark noise (DR) mainly caused by the thermionic emission from the
           photocathode\cite{2019wenlj}}
     \item {After pulse caused by the ion feedback from the ionization of
           the residual gas or the amplification process\cite{2019wenlj}}
@@ -142,7 +163,7 @@ found a small peak in $[30,50]$\si[]{ADCns} hypothesized due to dark noise. In M
 \end{enumerate}
 The first noise creates a charge response similar to that of a single photoelectron with random trigger time
 and relatively small trigger rate. The second noise signal is related to the trigger signal of the light source,
-the trigger rate of the light source, the greater the After pulse noise trigger rate.
+the trigger rate of the light source, the greater the After pulse noise trigger rate. 
 
 We set the photocathode voltage to the same potential as the upper surface of the MCP, turn off the laser,
 and test the dark noise from the MCP itself in the dark environment, get the  charge spectrum as~Fig\ref{fig:MCPDNR}:
@@ -155,13 +176,44 @@ MCP noise described by Gaussian  is considered in the fitting:
 \begin{figure}[ht]
     \centering
     \includegraphics[height=5cm]{pic/gaussDgamma.pdf}
-    \caption{Dark noise count rate(DCR) is \SI{3.92}{kHz} and dark noise count rate from MCP(MCP DNR) is \SI{0.245}{kHz}}\label{fig:gausDgam}
+    \caption{Dark noise count rate (DCR) is \SI{3.92}{kHz} and dark noise count rate from MCP(MCP DNR) is \SI{0.245}{kHz}}\label{fig:gausDgam}
 \end{figure}
-\subsection{secondary electron emission}\label{subsec:fuman}
-Photoelectrons are produced with very little energy, about the size of a few electronvolts, and the energy arriving at MCP is determined primarily by the electric field.
-When the photoelectron is multiplied in channel mode, the energy entering the channel is the energy accelerated by the electric field, which is about \SI{600}{eV}.
-Different from channel mode, the energies of electrons entering the channel is complicated,
-and we use Fuman Model to discribe the energy distribution of secondary electrons\cite{2002Probabilistic}.
+\section{long tail based on secondary electron emission}\label{sec:see}
+
+
+%\subsection{secondary electron emission}\label{subsec:fuman}
+%Secondary electron emission (SEE) is a phenomenon in which an incident particle, such as an electron or ion, 
+%collides with a solid surface and ejects one or more secondary electrons from the surface. 
+%The secondary electrons are emitted due to the transfer of energy from the incident particle to the surface atoms, 
+%which causes the ejection of electrons from the surface.
+%SEE is an important physical process in many areas of science and technology, 
+%including plasma physics, materials science, and microelectronics. In plasma physics, 
+%SEE plays a critical role in determining the behavior of plasmas in contact with solid surfaces.
+%In materials science, SEE is a key factor in determining the performance of materials under high-energy particle irradiation. 
+%In microelectronics, SEE can cause damage to electronic devices and affect their performance.
+%The magnitude of SEE depends on a variety of factors, including the energy and angle of incidence of the incident particle, 
+%the composition and structure of the surface material, and the presence of surface contaminants. 
+%In order to understand and predict the behavior of SEE, a variety of theoretical and experimental approaches have been developed, 
+%including Monte Carlo simulations, analytical models, and experimental measurements.
+\subsection{secondary electron energy spectrum}
+Secondary electron emission (SEE) is a phenomenon in which an incident particle, such as an electron or ion, 
+collides with a solid surface and ejects one or more secondary electrons from the surface. 
+The energy of secondary electrons is related to the initial energy of incident particle, incident Angle, target material and so on. 
+It is a complex energy distribution.
+Since the energy of photoelectrons when produced by the photocathode is very low, only a few \SI{}{eV}, 
+the energy of the photoelectron incident on the MCP is almost determined by the potential difference 
+between the photocathode and the MCP.\@ It is right to calcute the energy by analyzing the voltage divider circuit and the result is \SI{550}{eV} (to be determined).
+The energies of the secondary electrons can be discribed by using Furman self-consistent probabilistic model~\cite{2002Probabilistic} 
+when the incident energy is \SI{550}{eV} as Fig~\ref{fig:tail}. 
+What is equally important is how many secondary electrons can be produced at this incident energy, 
+which is also given the corresponding distribution in Fuman mpdel\cite{2002Probabilistic} as Fig~\ref{fig:SEE}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[height=5cm]{pic/SEE.pdf}
+    \caption{The maximum of secondary electrons is around 6 when the primary energy is around \SI{550}{eV} with MCP ALD-coated with \ce{Al2O3} and \ce{MgO}}\label{fig:SEE}
+\end{figure}
+
 
 \subsection{Gain at low incident energy}\label{sec:gain}
 From Sec~\ref{subsec:fuman}, the energy of secondary emission electrons is less than the energy of primary electrons and
