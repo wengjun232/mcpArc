@@ -1,0 +1,255 @@
+\begin{thebibliography}{10}
+
+\bibitem{JUNO:2022hlz}
+Angel Abusleme, Thomas Adam, Shakeel Ahmad, Rizwan Ahmed, Sebastiano Aiello,
+  Muhammad Akram, Abid Aleem, Tsagkarakis Alexandros, Fengpeng An, Qi~An,
+  et~al.
+\newblock {Mass testing and characterization of 20-inch PMTs for JUNO}.
+\newblock {\em The European Physical Journal C}, 82(12):1168, 2022.
+
+\bibitem{Bartlett1963TheTO}
+M.~S. Bartlett and Theodore~Edward Harris.
+\newblock {\em {The Theory of Branching Processes}}.
+\newblock Springer Berlin, 1963.
+
+\bibitem{1994Absolute}
+E.H. Bellamy, G.~Bellettini, J.~Budagov, F.~Cervelli, I.~Chirikov-Zorin,
+  M.~Incagli, D.~Lucchesi, C.~Pagliarone, S.~Tokar, and F.~Zetti.
+\newblock Absolute calibration and monitoring of a spectrometric channel using
+  a photomultiplier.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated}, 339(3):468--476,
+  1994.
+
+\bibitem{1955Scintillation}
+Ernst Breitenberger.
+\newblock Scintillation spectrometer statistics.
+\newblock {\em Progress in nuclear physics}, 4:56--94, 1955.
+
+\bibitem{1938Secondary}
+H~Bruining and JH~De~Boer.
+\newblock {Secondary electron emission: Part I. Secondary electron emission of
+  metals}.
+\newblock {\em Physica}, 5(1):17--30, 1938.
+
+\bibitem{2015Secondary}
+Meng Cao, Na~Zhang, Tian-Cun Hu, Fang Wang, and Wan-Zhao Cui.
+\newblock {Secondary electron emission from rough metal surfaces: A
+  multi-generation model}.
+\newblock {\em Journal of Physics D: Applied Physics}, 48(5):055501, 2015.
+
+\bibitem{Cao2019UpgradingPT}
+Zhen Cao, M.~J. Chen, H.~C. Li, and Z.~G. Yao.
+\newblock {Upgrading Plan Towards Multi-messenger Observation with LHAASO}.
+\newblock {\em EPJ Web of Conferences}, 2019.
+
+\bibitem{2016Optimization}
+Lin Chen, Jinshou Tian, Chunliang Liu, Yifang Wang, Tianchi Zhao, Hulin Liu,
+  Yonglin Wei, Xiaofeng Sai, Ping Chen, Xing Wang, Yu~Lu, Dandan Hui, Lehui
+  Guo, Shulin Liu, Sen Qian, Jingkai Xia, Baojun Yan, Na~Zhu, Jianning Sun,
+  Shuguang Si, Dong Li, Xingchao Wang, Guorui Huang, and Ming Qi.
+\newblock Optimization of the electron collection efficiency of a large area
+  {MCP-PMT} for the {JUNO} experiment.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  827:124--130, 2016.
+
+\bibitem{cowan1997statistical}
+Glen Cowan.
+\newblock {\em {Statistical Data Analysis}}.
+\newblock Oxford University Press, Oxford: New York, illustrated edition
+  edition, 1997.
+
+\bibitem{2002Probabilistic}
+MA~Furman and MTF Pivi.
+\newblock Probabilistic model for the simulation of secondary electron
+  emission.
+\newblock {\em Physical review special topics-accelerators and beams},
+  5(12):124404, 2002.
+
+\bibitem{2006Comparison}
+N.~D Gagunashvili.
+\newblock Comparison of weighted and unweighted histograms.
+\newblock {\em Statistics}, pages 43--44, 2012.
+
+\bibitem{2021Effects}
+Lehui Guo, Liwei Xin, Lili Li, Yongsheng Gou, Xiaofeng Sai, Shaohui Li, Hulin
+  Liu, Xiangyan Xu, Baiyu Liu, Guilong Gao, et~al.
+\newblock Effects of secondary electron emission yield properties on gain and
+  timing performance of {ALD-coated MCP}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  1005:165369, 2021.
+
+\bibitem{2012Secondary}
+Slade~J. Jokela, Igor~V. Veryovkin, Alexander~V. Zinovev, Jeffrey~W. Elam,
+  Anil~U. Mane, Qing Peng, and Z.~Insepov.
+\newblock {Secondary Electron Yield of Emissive Materials for Large-Area
+  Micro-Channel Plate Detectors: Surface Composition and Film Thickness
+  Dependencies}.
+\newblock {\em Physics Procedia}, 37:740--747, 2012.
+
+\bibitem{1991Tweedie}
+B.~Jorgensen.
+\newblock {\em {The Theory of Dispersion Models}}.
+\newblock Taylor \& Francis, 1997.
+
+\bibitem{2012Calibration}
+Leonidas Kalousis.
+\newblock {\em Calibration of the {Double Chooz} detector and cosmic background
+  studies}.
+\newblock PhD thesis, University of Strasbourg, 2012.
+
+\bibitem{2020A}
+LN~Kalousis, JPAM De~Andr{\'e}, E~Baussan, and M~Dracos.
+\newblock A fast numerical method for photomultiplier tube calibration.
+\newblock {\em Journal of Instrumentation}, 15(03):P03023, 2020.
+
+\bibitem{N2006Lifetime}
+N.~Kishimoto, M.~Nagamine, K.~Inami, Y.~Enari, and T.~Ohshima.
+\newblock Lifetime of {MCP-PMT}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  564(1):204--211, 2006.
+
+\bibitem{KRAUSS2023168659}
+S.~Krauss, M.~Böhm, K.~Gumbert, A.~Lehmann, D.~Miehling, A.~Belias,
+  R.~Dzhygadlo, A.~Gerhardt, D.~Lehmann, K.~Peters, G.~Schepers, C.~Schwarz,
+  J.~Schwiening, M.~Traxler, Y.~Wolf, L.~Schmitt, M.~Düren, A.~Hayrapetyan,
+  I.~Köseglu, M.~Schmidt, T.~Wasem, C.~Sfienti, and A.~Ali.
+\newblock {Performance of the most recent Microchannel-Plate PMTs for the PANDA
+  DIRC detectors at FAIR}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated}, 1057:168659, 2023.
+
+\bibitem{2013Photodetectors}
+Peter KriAn and Samo Korpar.
+\newblock {Photodetectors in Particle Physics Experiments}.
+\newblock {\em Annual Review of Nuclear $\&$ Particle Science}, 63(1):329--349,
+  2013.
+
+\bibitem{Lehmann:2022ret}
+A~Lehmann, A~Belias, R~Dzhygadlo, A~Gerhardt, D~Lehmann, K~Peters, G~Schepers,
+  C~Schwarz, J~Schwiening, M~Traxler, et~al.
+\newblock {Latest Technological Advances with MCP-PMTs}.
+\newblock 2374(1):012128, 2022.
+
+\bibitem{Luo:2023jdf}
+Feng-Jiao Luo, Zhi-Min Wang, An-Bo Yang, Yue-Kun Heng, Zhong-Hua Qin, Mei-Hang
+  Xu, Sen Qian, Shu-Lin Liu, Yi-Fang Wang, Wei Wang, et~al.
+\newblock {Design $\&$ Optimization of the HV divider for JUNO 20-inch PMT}.
+\newblock {\em arXiv preprint arXiv:2307.10544}, 2023.
+
+\bibitem{2012An}
+Anil~U. Mane, Qing Peng, Jeffrey~W. Elam, Daniel~C. Bennis, Christopher~A.
+  Craven, Michael~A. Detarando, John~R. Escolas, Henry~J. Frisch, Slade~J.
+  Jokela, and Jason Mcphate.
+\newblock {An Atomic Layer Deposition Method to Fabricate Economical and Robust
+  Large Area Microchannel Plates for Photodetectors}.
+\newblock {\em Physics Procedia}, 37:722--732, 2012.
+
+\bibitem{MATSUOKA2014148}
+K.~Matsuoka.
+\newblock {Development and production of the MCP-PMT for the Belle II TOP
+  counter}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  766:148--151, 2014.
+
+\bibitem{Nathan1970TheED}
+R~Nathan and CHB Mee.
+\newblock {The energy distribution of photoelectrons from the K2CsSb
+  photocathode}.
+\newblock {\em physica status solidi (a)}, 2(1):67--72, 1970.
+
+\bibitem{1951Various}
+Von Neumann.
+\newblock Various techniques used in connection with random digits.
+\newblock {\em Notes by GE Forsythe}, pages 36--38, 1951.
+
+\bibitem{oh2013introduction}
+Hyunseung Oh, Douglas~C. Montgomery, Elizabeth~A. Peck, and G.~Geoffrey Vining.
+\newblock {Introduction to Linear Regression Analysis}.
+\newblock {\em Biometrics}, 69(4):1087--1087, 2013.
+
+\bibitem{OLANO2020103456}
+L.~Olano and I.~Montero.
+\newblock Energy spectra of secondary electrons in dielectric materials by
+  charging analysis.
+\newblock {\em Results in Physics}, 19:103456, 2020.
+
+\bibitem{polya}
+JR~Prescott.
+\newblock A statistical model for photomultiplier single-electron statistics.
+\newblock {\em Nuclear Instruments and Methods}, 39(1):173--179, 1966.
+
+\bibitem{Sen1997TheTO}
+Ananda Sen.
+\newblock {The Theory of Dispersion Models}.
+\newblock {\em Technometrics}, 41:177--178, 1997.
+
+\bibitem{branchandPoisson}
+Harry~H Tan.
+\newblock A statistical model of the photomultiplier gain process with
+  applications to optical pulse detection.
+\newblock 1982.
+
+\bibitem{1988Secondary}
+Y~Ushio, T~Banno, N~Matuda, Y~Saito, S~Baba, and A~Kinbara.
+\newblock Secondary electron emission studies on {MgO} films.
+\newblock {\em Thin Solid Films}, 167(1-2):299--308, 1988.
+
+\bibitem{2021Summary}
+Q.~Wu, S.~Qian, Y.~Cao, G.~Huang, M.~Jin, Z.~Jin, D.~Li, H.~Liu, K.~Li, S.~Liu,
+  L.~Ma, L.~Ren, S.~Si, J.~Sun, J.~Tian, X.~Wang, H.~Zhan, Y.~Zhu, and
+  on~behalf of~the MCP-PMT~workgroup.
+\newblock Summary of the {R\&D} of 20-inch {MCP-PMT}s for neutrino detection.
+\newblock {\em Journal of Instrumentation}, 16(11):C11003, nov 2021.
+
+\bibitem{Xia_2015}
+J.~Xia, S.~Qian, W.~Wang, Z.~Ning, Y.~Cheng, Z.~Wang, X.~Li, M.~Qi, Y.~Heng,
+  S.~Liu, and X.~Lei.
+\newblock A performance evaluation system for photomultiplier tubes.
+\newblock {\em Journal of Instrumentation}, 10(03):P03023, Mar 2015.
+
+\bibitem{Xu_2022}
+D.C. Xu, B.D. Xu, E.J. Bao, Y.Y. Wu, A.Q. Zhang, Y.Y. Wang, G.L. Zhang, Y.~Xu,
+  Z.Y. Guo, J.H. Pei, H.Y. Mao, J.S. Liu, Z.~Wang, and S.M. Chen.
+\newblock Towards the ultimate {PMT} waveform analysis for neutrino and dark
+  matter experiments.
+\newblock {\em Journal of Instrumentation}, 17(06):P06040, jun 2022.
+
+\bibitem{2017MCP}
+Yuzhen Yang, Baojun Yan, Shulin Liu, Tianchi Zhao, Yang Yu, Kaile Wen, Yumei
+  Li, and Ming Qi.
+\newblock {MCP} performance improvement using alumina thin film.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 868:43--47,
+  2017.
+
+\bibitem{Zhang:2023ued}
+Aiqiang Zhang, Benda Xu, Jun Weng, Huiyou Chen, Wenhui Shao, Tong Xu, Ling Ren,
+  Sen Qian, Zhe Wang, and Shaomin Chen.
+\newblock {Performance evaluation of the 8-inch MCP-PMT for Jinping Neutrino
+  Experiment}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated}, 1055:168506, 2023.
+
+\bibitem{2021Gain}
+H.Q. Zhang, Z.M. Wang, F.J. Luo, A.B. Yang, D.R. Wu, Y.C. Li, Z.H. Qin, C.G.
+  Yang, Y.K. Heng, Y.F. Wang, and H.S. Chen.
+\newblock Gain and charge response of {20" MCP and dynode PMTs}.
+\newblock {\em Journal of Instrumentation}, 16(08):T08009, 2021.
+
+\bibitem{ZHU2020162002}
+Yao Zhu, Yiqi Cao, Feng Gao, Guorui Huang, Muchun Jin, Zhen Jin, Dong Li, Kun
+  Li, Shulin Liu, Sen Qian, Ling Ren, Shuguang Si, Jianning Sun, Xingchao Wang,
+  Zhile Wang, Fei Xie, and Haoda Zhang.
+\newblock The mass production and batch test result of {20" MCP-PMTs}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 952:162002,
+  2020.
+\newblock 10th International Workshop on Ring Imaging Cherenkov Detectors (RICH
+  2018).
+
+\end{thebibliography}

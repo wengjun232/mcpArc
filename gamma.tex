@@ -1,0 +1,32 @@
+\section{SER charge spectrum based on Gamma distribution}\label{gammapossion}
+Instead of Gaussian containing a small nonphysical tail less than 0,
+the charge distribution is parameterized with a Gamma distribution $\varGamma(\alpha, \beta)$ defined by a scale factor $\alpha$ and the rate fator $\beta$ as Eq.~\eqref{eq:gamma}:
+\begin{equation}
+    \label{eq:gamma}
+    \begin{aligned}
+        f_\Gamma(x ; \alpha, \beta) = \frac{x^{\alpha-1} e^{-\beta x} \beta^\alpha}{\Gamma(\alpha)} \quad \text { for } x>0 \quad \alpha, \beta>0 \\
+    \end{aligned}
+\end{equation}
+where $\Gamma(\alpha)$ is the Gamma function.
+A Gamma distribution uniquely determined by its expectation \(\frac{\alpha}{\beta}\) and variance \(\frac{\alpha}{\beta^2}\)
+which can be converted into the mean and the variance of the Gaussian.
+
+Every multiplication of electrons at the dynodes or MCP channels follows a Poisson distribution~\cite{branchandPoisson}.
+A series of such multiplications forms a cascade Poisson distribution~\cite{1955Scintillation}.
+It is a Galton-Watson branching process~\cite{Bartlett1963TheTO}
+and difficult to perform analytical computations.
+Breitenberger summaried and indicated that the shape of SER charge spectrum is between the Poisson distribution
+and the Gaussian distribution~\cite{1955Scintillation}.
+Prescott proposed to utilize a cascade Polya distribution to
+characterize the electron multiplication in PMT
+when considering the non-uniformity of the dynode surface~\cite{polya}.
+Kalousis approximated the Polya distribution as a Gamma distribution to calibrate PMT
+and achieved better calibration results than Gaussian model in Eq.~\eqref{eq:sreal}~\cite{2012Calibration,2020A}.
+Similar to Eq.~\eqref{eq:sreal}, the SER charge spectrum based on the Gamma distribution is,
+\begin{equation}
+    \begin{aligned}
+        f(Q) & = P_\pi(n_{\mathrm{PE}};\lambda)\bigotimes f_\Gamma(Q;n_{\mathrm{PE}}\alpha, \beta) \\
+    \end{aligned}
+    \label{eq:Gamma}
+\end{equation}
+where \(\frac{\alpha}{\beta}=Q_1\) and \(\frac{\alpha}{\beta^2}=\sigma_1^2\).
